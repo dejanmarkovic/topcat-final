@@ -1,0 +1,168 @@
+
+.site-main {
+    margin: 0 0 0 0;
+}
+
+.site-footer {
+    clear: both;
+    width: 100%;
+    background: none repeat scroll 0 0 #2f3336;
+}
+.topcat_page{
+    background: none repeat scroll 0 0 #fff;
+    box-sizing: border-box;
+    margin: 0px auto 0 !important;
+    max-width: 1000px;
+    /*  border: 1px black dashed; */
+}
+
+
+/* mobile styles */
+@media only screen and (max-width:480px) {
+
+    .site-content .widget-area {
+        float: none;
+        width: auto;
+    }
+    .metaslider{
+        display: none;
+    }
+
+    section {
+        margin: 20px 0px;
+        padding: 10px;
+    }
+
+
+    section {
+        margin: 20px 0px;
+        padding: 10px;
+    }
+
+    section div {
+        padding: 15px;
+        margin: 5px;
+        border-left-style: none;
+    }
+
+    section div:first-child {
+        border-left-width: 0;
+    }
+
+    /* percentage size of services boxes */
+    .perc33{
+        max-width: 100%;
+        display: block;
+    }
+    .perc25{
+        max-width: 100%;
+        display: block;
+    }
+    .perc100{
+        max-width: 100%;
+        display: block;
+    }
+
+    .perc50{
+        max-width: 100%;
+        display: block;
+    }
+
+    .menu li {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/*tablet styles*/
+@media only screen and (min-width:481px) and (max-width:768px) {
+
+    .site-content .widget-area {
+        float: none;
+        width: auto;
+    }
+    .metaslider{
+        display: none;
+    }
+
+    .menu li {
+        width: 130px;
+        text-align: center;
+    }
+}
+
+/*desktop styles*/
+@media only screen and (min-width:769px) {
+    .content-area {
+        float: none;
+        width: 100%;
+    }
+
+    .site-branding{
+        position: relative;
+        /*   border: 1px #008000 dashed; */
+    }
+    .site-description{
+        display: inline;
+        position: absolute;
+        bottom: 0px;
+        left: 25%;
+        /*padding: 0.1em 0; */
+        padding: 5px 0px;
+   /*     color: #bb1b0d; */
+        /*color: #444; */
+        /*  border: 1px orange dashed; */
+    }
+
+    .social-menu{
+        display: inline;
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        transform: translateY(-50%);
+    }
+
+    .services_section{
+        margin: 20px 20px;
+        padding: 10px;
+    }
+    section div {
+        padding: 15px;
+        margin: 5px;
+        border-left-style: solid;
+        border-left-width: 1px;
+        display: table;
+        border-color: #ececec;
+    }
+
+    section div:first-child {
+        border-left-width: 0;
+    }
+
+
+    /* percentage size of services boxes */
+    .perc33{
+        max-width: 31%;
+
+    }
+    .perc25{
+        width: 23%;
+    }
+    .perc100{
+        width: 100%;
+    }
+
+    .perc50{
+        width: 47%;
+    }
+
+    .perc33, .perc25, .perc50,.perc100  {
+        vertical-align: top;
+    }
+
+    .menu li {
+        width: 130px;
+        text-align: center;
+    }
+}
+
